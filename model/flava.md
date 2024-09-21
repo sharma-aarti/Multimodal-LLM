@@ -1,28 +1,16 @@
----
-layout: post
-title: "FLAVA: A Foundational Language and Vision Alignment Model"
-date: 2024-05-23
-description: >
-  Exploring the key elements, deficiencies, and insights into FLAVA – a model that seeks to unify vision, language, and multimodal understanding.
-tags: AI, Multimodal Models, Vision-and-Language
-categories: [Machine Learning, Research]
-related_posts: false
-featured: false
-published: true
-author: Aarti
-mermaid:
-  enabled: true
----
 
 > **Objective** :
 > - Understanding the key elements of FLAVA
 > - Highlighting its limitations
 > - Extracting valuable insights for the future of multimodal AI
 
----
- ![FLAVA Architecture](img/flava_architecture.png)
 
----
+<p align="center">
+  <img src="../img/flava.PNG" alt="FLAVA Architecture">
+  <br>
+  <em><small>Figure 1: FLAVA Architecture</small></em>
+</p>
+
 
 ## 1. Three Key Innovations of FLAVA
 
@@ -50,10 +38,11 @@ One of FLAVA’s most attractive features is its reliance on publicly available 
 **Why This Matters:**  
 The transparency of FLAVA’s dataset usage not only accelerates reproducibility but also ensures a broader, more ethical application of AI technologies, as researchers can avoid the opaque, closed datasets used by models like ALIGN and CLIP.
 
----
-![Performance Difference Between FLAVA and CLIP-ViT-B/16 on Vision, Language, and Multimodal Tasks](img/flavaversuclip.png)
-
----
+<p align="center">
+  <img src="../img/flavaversuclip.PNG" alt="Performance Difference Between FLAVA and CLIP-ViT-B/16 on Vision, Language, and Multimodal Tasks">
+  <br>
+  <em><small>Figure 2: Performance Difference Between FLAVA and CLIP-ViT-B/16 on Vision, Language, and Multimodal Tasks</small></em>
+</p>
 
 ## 2. One Glaring Deficiency: Handling Massive Data
 
