@@ -33,7 +33,7 @@ This technique provides two benefits:
 - **Improved Generalization**: Sharing weights helps the model generalize better on unseen data by reducing overfitting. The architecture essentially operates like an RNN but processes input repeatedly rather than over time.
 
 
-![](perciever.jpg)
+![](img/perciever.jpg)
 
 
 
